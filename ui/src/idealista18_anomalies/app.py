@@ -32,7 +32,7 @@ def ui_header():
         """Anomalous properties in [Idealista18](https://www.idealista.com/labs/blog/?p=4207) data for Madrid, Barcelona and Valencia (Spain)."""
     )
     st.markdown(
-        """Built by [BigML](https://bigml.com). Source available in [Github](https://github.com/bigmlcom/idealista18-anomalies).
+        """Built by [BigML](https://bigml.com). Source available in [Github](https://github.com/bml-bindings/idealista18-anomalies).
 
   Powered by: """
     )
