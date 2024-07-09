@@ -1,10 +1,13 @@
 import os
 import typing
 import urllib.parse
-from datetime import datetime
-
 import pandas as pd
 import streamlit as st
+
+
+from datetime import datetime
+from pathlib import Path
+
 
 APP_NAME = "Idealista18-anomalies"
 
@@ -12,7 +15,8 @@ STREAMLIT_LOGO = "https://github.com/unmonoqueteclea/valencianow/blob/main/ui/re
 BIGML_LOGO = "https://static.bigml.com/static/images/brand_guidelines/bigml_primary_logo@2x.png"
 MAPBOX_LOGO = "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mapbox-logo-icon.png"
 # data sources
-DATA_PATH = "../../data"
+print(Path(__file__).parents[1])
+DATA_PATH = Path(__file__).parents[1] / 'data'
 
 DEFAULT_FIELDS = ["LONGITUDE", "LATITUDE"]
 
