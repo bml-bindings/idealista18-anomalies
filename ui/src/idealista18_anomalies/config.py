@@ -12,7 +12,7 @@ STREAMLIT_LOGO = "https://github.com/unmonoqueteclea/valencianow/blob/main/ui/re
 BIGML_LOGO = "https://static.bigml.com/static/images/brand_guidelines/bigml_primary_logo@2x.png"
 MAPBOX_LOGO = "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/mapbox-logo-icon.png"
 # data sources
-DATA_PATH = "../../../data"
+DATA_PATH = "./data"
 
 DEFAULT_FIELDS = ["LONGITUDE", "LATITUDE"]
 
